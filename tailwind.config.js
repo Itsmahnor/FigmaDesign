@@ -5,7 +5,14 @@ export default {
     "./public/index.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        'screen-sm': '540px',   // @media (min-width: 576px)
+        'screen-md': '720px',   // @media (min-width: 768px)
+        'screen-lg': '960px',   // @media (min-width: 992px)
+        'screen-xl': '1140px',  // @media (min-width: 1200px)
+      },
+    },
   },
   plugins: [],
 }

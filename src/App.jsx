@@ -1,12 +1,15 @@
 
 import './App.css'
-
+import BottomNav from './Components/Navbar/BottomNav/BottomNav'
+import TopNav from './Components/Navbar/TopNav/TopNav'
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
 
   return (
     <>
-     <h1>Hello world</h1>
+   <TopNav />
+   <BottomNav />
     </>
   )
 }

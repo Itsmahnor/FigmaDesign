@@ -1,0 +1,12 @@
+@media (max-width: 1010px) {
+  .top-header-content {
+      height: auto;
+      padding: 15px 0;
+  }
+  .email,.phone {
+display: none;
+  }
+  .text-div {
+    max-width: 200px;
+  }
+}
