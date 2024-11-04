@@ -1,0 +1,105 @@
+.slider-container {
+  width: 100vw; 
+  height: 85vh;/* Full viewport width */
+  overflow: hidden; /* Prevents overflow */
+}
+
+.slider-container img {
+  width: 100%; /* Ensure images are responsive */
+  height: 100%; /* Maintain height */
+  object-fit: cover; /* Ensure images cover the space */
+}
+.animate {
+ animation: Animate 2s linear;
+ animation-timeline: view();
+ animation-range: entry 0 cover 40%;
+}
+@keyframes Animate {
+  from{
+  transform: translateY(-200px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.animate1 {
+  animation: Animate 1s 3s linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 40%;
+ }
+ @keyframes Animate {
+   from{
+   transform: translateY(-1000px);
+     opacity: 0;
+     display: none;
+   }
+   to{
+     transform: translateY(0px);
+     opacity: 1;
+     display: block;
+   }
+ }
+ @keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-1000px); /* Move button down a bit */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.button-animate {
+  animation: fadeIn 0.5s forwards; /* Duration of button animation */
+  animation-delay: 3s; /* Adjust delay to your preference */
+  opacity: 0; /* Start with button hidden */
+}
+/*  */
+.animate2 {
+  animation: Animate2 2s linear;
+ }
+ @keyframes Animate2 {
+   from{
+   transform: translateY(200px);
+     opacity: 0;
+   }
+   to{
+     transform: translateY(0px);
+     opacity: 1;
+   }
+ }
+ .animate2 {
+   animation: Animate2 1s 3s linear;
+  }
+  @keyframes Animate2 {
+    from{
+    transform: translateY(1000px);
+      opacity: 0;
+      display: none;
+    }
+    to{
+      transform: translateY(0px);
+      opacity: 1;
+      display: block;
+    }
+  }
+  @keyframes fadeIn {
+   from {
+     opacity: 0;
+     transform: translateY(100px); /* Move button down a bit */
+   }
+   to {
+     opacity: 1;
+     transform: translateY(0);
+   }
+ }
+ 
+ .button-animate {
+   animation: fadeIn 0.5s forwards; /* Duration of button animation */
+   animation-delay: 3s; /* Adjust delay to your preference */
+   opacity: 0; /* Start with button hidden */
+ }
+ 

@@ -1,15 +1,19 @@
 
 import './App.css'
-import BottomNav from './Components/Navbar/BottomNav/BottomNav'
-import TopNav from './Components/Navbar/TopNav/TopNav'
+import AboutUs from './Components/AboutUs/Aboutus';
+import BottomHeader from './Components/BottomHeader/BottomHeader';
+import Header from './Components/Header/Header';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
 
   return (
     <>
-   <TopNav />
-   <BottomNav />
+
+   <Header />
+   <BottomHeader />
+   <AboutUs />
     </>
   )
 }
