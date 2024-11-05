@@ -1,6 +1,6 @@
 
 .divanimate {
-  animation: Anima 1s 0s linear;
+  animation: Anima 2s 0s linear;
   animation-timeline: view();
   animation-range: entry 0 cover 40%;
  }
@@ -17,7 +17,7 @@
    }
  }
  .divanimate1 {
-  animation: Anima1 1s 1s linear;
+  animation: Anima1 2s 1s linear;
   animation-timeline: view();
   animation-range: entry 0 cover 40%;
  }
@@ -34,7 +34,7 @@
    }
  }
  .divanimate2 {
-  animation: Anima2 1s 2s linear;
+  animation: Anima2 2s 2s linear;
   animation-timeline: view();
   animation-range: entry 0 cover 40%;
  }
@@ -51,7 +51,7 @@
    }
  }
  .divanimate3 {
-  animation: Anima3 1s 3s linear;
+  animation: Anima3 2s 3s linear;
   animation-timeline: view();
   animation-range: entry 0 cover 40%;
  }
@@ -68,7 +68,7 @@
    }
  }
  .divanimate4 {
-  animation: Anima4 1s 4s linear;
+  animation: Anima4 2s 4s linear;
   animation-timeline: view();
   animation-range: entry 0 cover 40%;
  }

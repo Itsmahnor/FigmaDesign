@@ -6,6 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { FaChevronRight } from "react-icons/fa";
 import { VscSearch } from "react-icons/vsc";
 import { LuShoppingCart } from "react-icons/lu";
+import './BottomNav.css'
 
 function BottomNav() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -13,7 +14,8 @@ function BottomNav() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 200) {
+      if (window.scrollY > 100) {
+        console.log(window.innerHeight)
         setIsSticky(true);
       } else {
         setIsSticky(false);
@@ -24,7 +26,7 @@ function BottomNav() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   return (
-    <div className={`s ${isSticky ? 'sticky-active' : ''}`}>
+    <div className={`bg-body-tertiary sticky-navbar ${isSticky ? 'sticky-active' : ''}`}>
     <Navbar
       expand="lg"
       className={`bg-body-tertiary text-[14px] ${isSticky ? "sticky-active" : ""} sticky-navbar`}
@@ -51,7 +53,7 @@ function BottomNav() {
                 <NavDropdown.Item href="#action5" className="flex group">
                   <p className="flex justify-between relative group hover:cursor-pointer">
                     Shop <FaChevronRight />
-                    <ol className="absolute -top-1 -right-[10.5rem] flex flex-col gap-2 border p-3 bg-white shadow-md hidden group-hover:flex z-1050">
+                    <ol className="absolute -top-1 -right-[10.5rem]  flex-col gap-2 border p-3 bg-white shadow-md hidden group-hover:flex z-1050">
                       <li>OUR PRODUCTS</li>
                       <li>SHOPS</li>
                     </ol>
