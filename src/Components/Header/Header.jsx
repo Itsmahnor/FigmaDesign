@@ -20,8 +20,7 @@ function Header() {
   return ( 
     <>
       <div className="w-[100vw] h-[100vh] ">
-        <TopNav />
-        <BottomNav />
+
         <div className="slider-container"> 
           <Slider {...settings}>
             <div className="relative">

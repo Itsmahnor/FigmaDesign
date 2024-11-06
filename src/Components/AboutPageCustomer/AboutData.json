@@ -1,0 +1,26 @@
+[
+  {
+    "id":1,
+     "img":"https://preview.colorlib.com/theme/farmie/img/bg-img/20.jpg",
+     "titlt":"Carlos Bacca",
+     "Price":"Coordinator"
+  },
+  {
+    "id":2,
+     "img":"https://preview.colorlib.com/theme/farmie/img/bg-img/21.jpg",
+     "titlt":"Emilia Clarke",
+     "Price":"Controller"
+  },
+  {
+    "id":1,
+     "img":"https://preview.colorlib.com/theme/farmie/img/bg-img/22.jpg",
+     "titlt":"Brian Doherty",
+     "Price":"Sales Executive"
+  },
+  {
+    "id":1,
+     "img":"https://preview.colorlib.com/theme/farmie/img/bg-img/23.jpg",
+     "titlt":"Mary O’Connor",
+     "Price":"Plan Manager"
+  }
+]
