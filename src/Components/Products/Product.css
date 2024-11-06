@@ -1,9 +1,26 @@
 .bg-image {
   background-attachment: fixed;
   background-image: url('https://preview.colorlib.com/theme/farmie/img/bg-img/8.jpg');
-  /* filter: brightness(0.8); */
+  filter: brightness(0.8);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: absolute;
+}
+
+.divanimation {
+  animation: Anima3 5s  ease-in-out forwards;
+  animation-timeline: view();
+  animation-range: entry 0 cover 40%;
+}
+
+@keyframes Anima3 {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

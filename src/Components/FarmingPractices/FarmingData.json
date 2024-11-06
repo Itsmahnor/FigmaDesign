@@ -1,0 +1,51 @@
+[
+  {
+    "id":1,
+     "img":"https://preview.colorlib.com/theme/farmie/img/bg-img/9.jpg",
+     "titlt":"Farming practice for",
+     "subheading":"Chicken Farmed For Meat",
+     "text":"Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim",
+     "icon":"https://preview.colorlib.com/theme/farmie/img/core-img/chicken.png"
+  },
+  {
+    "id":2,
+     "img":"https://preview.colorlib.com/theme/farmie/img/bg-img/10.jpg",
+     "titlt":"Farming practice for",
+     "subheading":"Pig Farm Management",
+     "text":"Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim",
+      "icon":"https://preview.colorlib.com/theme/farmie/img/core-img/pig.png"
+  },
+  {
+    "id":1,
+     "img":"https://preview.colorlib.com/theme/farmie/img/bg-img/11.jpg",
+     "titlt":"Farming practice for",
+     "subheading":"Beef Cattle Farming",
+     "text":"Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim",
+      "icon":"https://preview.colorlib.com/theme/farmie/img/core-img/cow.png"
+  },
+  {
+    "id":1,
+     "img":"https://preview.colorlib.com/theme/farmie/img/bg-img/12.jpg",
+     "titlt":"Farming practice for",
+     "subheading":"Improved Rice Cultivation",
+     "text":"Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim",
+      "icon":"https://preview.colorlib.com/theme/farmie/img/core-img/cereal.png"
+  },
+  {
+    "id":2,
+     "img":"https://preview.colorlib.com/theme/farmie/img/bg-img/13.jpg",
+     "titlt":"Farming practice for",
+     "subheading":"Soil Improvement Techniques",
+     "text":"Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim",
+      "icon":"https://preview.colorlib.com/theme/farmie/img/core-img/sprout.png"
+  },
+  {
+    "id":1,
+     "img":"https://preview.colorlib.com/theme/farmie/img/bg-img/14.jpg",
+     "titlt":"Farming practice for",
+     "subheading":"Intensive Fruit Farming",
+     "text":"Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim",
+      "icon":"https://preview.colorlib.com/theme/farmie/img/core-img/vegetable.png"
+  }
+
+]

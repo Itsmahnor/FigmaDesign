@@ -7,7 +7,7 @@ function BottomHeader() {
     <div className="w-[100vw] h-auto mt-5  flex justify-center items-center  ">
       <div className="md:w-[60vw]  md:h-[80vh] h-auto flex flex-col ">
 <div className="w-full h-auto">
-<img src="https://preview.colorlib.com/theme/farmie/img/bg-img/2.jpg" alt="image" className=" h-[100%] w-[100%] object-cover"  />
+<img src="https://preview.colorlib.com/theme/farmie/img/bg-img/2.jpg" alt="image" className=" h-[100%] w-[100%] object-cover "  />
 </div>
 <div className="w-full h-auto flex gap-11  flex-wrap justify-center">
 <div className="h-auto mt-5 w-auto flex flex-col gap-4 items-center divanimate  ">

@@ -1,0 +1,9 @@
+.bg-image1 {
+  background-attachment: fixed;
+  background-image: url('https://preview.colorlib.com/theme/farmie/img/bg-img/15.jpg');
+  filter: brightness(0.9);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}

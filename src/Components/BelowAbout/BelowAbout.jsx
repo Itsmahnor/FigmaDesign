@@ -4,14 +4,14 @@ import './BelowAbout.css'
 function BelowAbout() {
   return (
     <>
-      <div className="w-full h-[100vh] bg-[#f2f4f5]">
-        <div className="w-full flex flex-wrap">
-          <div className="md:w-2/5 w-full sm:h-auto h-auto">
-            <div className="Background-img   sm:w-100 w-[100%] md:w-[40%] h-100"></div>
+      <div className="w-[100vw] h-auto bg-[#f2f4f5]">
+        <div className="w-[100vw] flex flex-wrap">
+          <div className="w-[40vw]   h-auto   ">
+            <div className="Background-img  w-[40vw]  h-[100%]"></div>
           </div>
           
-          <div className="md:w-3/5  sm:w-100 w-full h-auto p-6 sm:p-4 lg:p-[13rem] bg-[#f2f4f5]">
-            <div className="flex flex-col gap-5 ">
+          <div className="w-[60vw]   h-auto p-6 sm:p-4 lg:p-[13rem] flex flex-col gap-5  ">
+         
               <div>
                 <p className="text-gray-500 text-sm">WHAT WE DO</p>
                 <h1><span className="text-[#3da03d]">Our Produce</span> Is Mainstay For Us</h1>
@@ -55,7 +55,7 @@ function BelowAbout() {
             </div>
           </div>
         </div>
-      </div>
+      
     </>
   );
 }
