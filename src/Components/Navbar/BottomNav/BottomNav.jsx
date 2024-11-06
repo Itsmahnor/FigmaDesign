@@ -75,10 +75,10 @@ function BottomNav() {
                 </NavDropdown>
               )}
 
-              <Nav.Link as={Link} to="/product" >OUR PRODUCTS</Nav.Link>
-              <Nav.Link href="#">FARMING PRACTICE</Nav.Link>
-              <Nav.Link href="#">NEWS</Nav.Link>
-              <Nav.Link href="#">Contact</Nav.Link>
+<Nav.Link as={Link} to="/product">Our Products</Nav.Link>
+              <Nav.Link as={Link} to="/farm">FARMING PRACTICE</Nav.Link>
+              <Nav.Link as={Link} to="/news" href="#">NEWS</Nav.Link>
+              <Nav.Link as={Link} to="/contact" href="#">Contact</Nav.Link>
               <Nav.Link href="#">
                 <VscSearch className="text-lg ml-2" />
               </Nav.Link>

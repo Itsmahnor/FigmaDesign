@@ -1,0 +1,20 @@
+[
+  {
+    "id":1,
+     "img":"https://preview.colorlib.com/theme/farmie/img/bg-img/p1.jpg",
+     "titlt":"Address",
+     "Price":"120 Raymond Rd, Canarsie, New York"
+  },
+  {
+    "id":2,
+     "img":"https://preview.colorlib.com/theme/farmie/img/bg-img/p2.jpg",
+     "titlt":"Phone",
+     "Price":"+84 223 9000"
+  },
+  {
+    "id":1,
+     "img":"https://preview.colorlib.com/theme/farmie/img/bg-img/p3.jpg",
+     "titlt":"Email",
+     "Price":"info.deercreative@gmail.com"
+  }
+]
