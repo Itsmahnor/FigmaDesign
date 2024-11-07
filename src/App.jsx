@@ -16,33 +16,35 @@ import FarmingPage from './Pages/FarmingPage';
 import NewsPage from './Pages/News';
 import Contact from './Pages/ContactPage';
 import ContactPage from './Pages/ContactPage';
+import ScrollToTopButton from './Pages/ScrollToTopButton';
+
 
 function App() {
   const router=createBrowserRouter([
   
     {
       path:"/",
-      element:(<><TopNav /> <BottomNav />   <Home />  </>)
+      element:(<><TopNav /> <BottomNav />   <Home /> <ScrollToTopButton /> </>)
     },
     {
       path:"/about",
-      element:(<> <TopNav /> <BottomNav /> <About /> </>)
+      element:(<> <TopNav /> <BottomNav /> <About /> <ScrollToTopButton />  </>)
     },
     {
       path:"/product",
-      element:(<> <TopNav /> <BottomNav /> <ProductPage /> </>)
+      element:(<> <TopNav /> <BottomNav /> <ProductPage /> <ScrollToTopButton />  </>)
     },
     {
       path:"/farm",
-      element:(<> <TopNav /> <BottomNav /> <FarmingPage /> </>)
+      element:(<> <TopNav /> <BottomNav /> <FarmingPage /> <ScrollToTopButton /> </>)
     },
     {
       path:"/news",
-      element:(<> <TopNav /> <BottomNav /> <NewsPage />    </>)
+      element:(<> <TopNav /> <BottomNav /> <NewsPage /> <ScrollToTopButton />    </>)
     },
     {
       path:"/contact",
-      element:(<> <TopNav /> <BottomNav /> <ContactPage />    </>)
+      element:(<> <TopNav /> <BottomNav /> <ContactPage /> <ScrollToTopButton />    </>)
     },
   ]);
 

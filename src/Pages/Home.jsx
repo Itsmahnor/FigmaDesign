@@ -14,7 +14,6 @@ import Header from '../Components/Header/Header';
 function Home() {
   return (
 <>
-
 <Header />
    <BottomHeader />
    <AboutUs />
@@ -26,7 +25,6 @@ function Home() {
    <Contact />
    <BottomTop />
    <Footer />
-
 </>
     );
 }
