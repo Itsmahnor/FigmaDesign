@@ -82,8 +82,9 @@ function BottomNav() {
               <Nav.Link href="#">
                 <VscSearch className="text-lg ml-2" />
               </Nav.Link>
-              <Nav.Link href="#">
+              <Nav.Link href="#" className='relative'>
                 <LuShoppingCart className="text-lg ml-2" />
+                <p className='absolute top-1 right-1 w-[12px] bg-[green] h-[12px] flex justify-center items-center rounded-[10rem] text-[8px] p-1 text-white'>0</p>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
