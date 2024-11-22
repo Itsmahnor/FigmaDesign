@@ -17,7 +17,8 @@ function AboutUs() {
 <div className="md:w-[25vw] h-auto flex gap-11  flex-wrap justify-center ">
 <div className="w-80 h-80 p-2 relative overflow-hidden ">
   <img 
-    src="https://preview.colorlib.com/theme/farmie/img/bg-img/2.jpg" 
+    src="https://preview.colorlib.com/theme/farmie/img/bg-img/6.jpg
+" 
     alt="image" 
     className="h-full w-full object-cover rounded-full filter brightness-75 transition duration-300 hover:brightness-50" 
   />

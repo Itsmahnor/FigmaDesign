@@ -5,8 +5,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 function Footer() {
   return ( 
     <>
-    <div className="w-[100vw]   md:h-auto  Footer-img flex justify-center flex-wrap items-center">
-      <div className='w-[80vw] h-auto flex gap-5 flex-wrap p-9 mb-4'>
+    <div className="w-[100vw]   h-auto  Footer-img flex justify-center flex-wrap items-center ">
+      <div className='w-[80vw] h-full flex gap-5 flex-wrap p-9 mb-4'>
         <div className='md:w-[20vw]   text-white' >
           <img src="https://preview.colorlib.com/theme/farmie/img/core-img/logo2.png
 " alt="img" />
@@ -61,14 +61,7 @@ function Footer() {
 <p className='flex gap-3 text-[1.2rem] mt-9'> <span className='border border-[#69ca69] rounded-full p-2 transition-all hover:bg-[#69ca69]'><FaPinterest /></span>Pinterset</p>
         </div>
       </div>
-    <div className='w-[100vw]  h-auto bg-black pt-3 text-white absolute bottom-0 text-center flex  justify-center items-center gap-16 flex-wrap'>
-<p>Copyright ©2024 All rights reserved | This template is made with  by Colorlib</p>
-<p className='flex justify-center items-center gap-4'><span>About</span> 
-<span>Produce </span>
-<span>Practice</span>
-<span> Projects</span>
-</p>
-    </div>
+
     </div>
 
     </>

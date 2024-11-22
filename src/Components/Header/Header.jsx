@@ -30,7 +30,7 @@ function Header() {
                 style={{ width: '100%', height: '100vh', objectFit: 'cover', filter: 'brightness(0.7)' }}
               />
               <div className="absolute inset-0 flex items-center justify-center w-[100vw] z-10">
-                <div className="md:w-[50vw] md:h-[20vh] flex flex-col text-white space-y-4">
+                <div className="lg:w-[50vw]   flex flex-col text-white space-y-4">
                   <h1 className="md:text-[3rem] font-bold animate">The Heart of Farm is The True Center of Our Universe</h1>
                   <p className="md:text-lg animate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ex facere nesciunt dolores, similique veritatis mollitia natus quis molestiae aperiam esse necessitatibus earum repellendus aliquam, itaque sed! Quasi, velit aliquam!</p>
                   <button className="bg-green-500 px-6 py-3 w-[150px] hover:bg-black hover:text-white transition-all duration-2000 button-animate">Contact Us</button>
@@ -45,7 +45,7 @@ function Header() {
                 style={{ width: '100%', height: '100vh', objectFit: 'cover', filter: 'brightness(0.7)' }}
               />
               <div className="absolute inset-0 flex items-center justify-center w-[100vw] p-3 z-10">
-                <div className="md:w-[50vw] md:h-[20vh] flex flex-col text-white space-y-4">
+                <div className="lg:w-[50vw]  flex flex-col text-white space-y-4">
                   <h1 className="md:text-[3rem] font-bold animate2">The Heart of Farm is The True Center of Our Universe</h1>
                   <p className="md:text-lg animate2" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ex facere nesciunt dolores, similique veritatis mollitia natus quis molestiae aperiam esse necessitatibus earum repellendus aliquam, itaque sed! Quasi, velit aliquam!</p>
                   <button className="bg-green-500 px-6 py-3 w-[150px] hover:bg-black hover:text-white transition-all duration-2000 button-animate2">Contact Us</button>

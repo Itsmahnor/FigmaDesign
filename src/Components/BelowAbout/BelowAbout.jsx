@@ -22,7 +22,7 @@ function BelowAbout() {
               <div className="flex flex-wrap gap-14">
                 <div className="md:w-1/3 w-full">
                   <div className="flex gap-4">
-                    <img src="https://preview.colorlib.com/theme/farmie/img/core-img/s2.png" alt="Meat & Eggs" className="" />
+                    <img src="https://preview.colorlib.com/theme/farmie/img/core-img/s2.png" alt="Meat & Eggs" className="object-contain" />
                     <h1 className="text-xl">Meat & Eggs</h1>
                   </div>
                   <p className="mt-2 text-gray-500">Intiam eu sagittis est, aster cosmo lacini libero...</p>
@@ -30,7 +30,7 @@ function BelowAbout() {
                 
                 <div className="md:w-1/3 w-full">
                   <div className="flex gap-4">
-                    <img src="https://preview.colorlib.com/theme/farmie/img/core-img/s3.png" alt="Milk & Cheese" />
+                    <img src="https://preview.colorlib.com/theme/farmie/img/core-img/s3.png" alt="Milk & Cheese"className="object-contain" />
                     <h1 className="text-xl">Milk & Cheese</h1>
                   </div>
                   <p className="mt-2 text-gray-500">Intiam eu sagittis est, aster cosmo lacini libero...</p>
@@ -38,7 +38,7 @@ function BelowAbout() {
                 
                 <div className="md:w-1/3 w-full">
                   <div className="flex gap-4">
-                    <img src="https://preview.colorlib.com/theme/farmie/img/core-img/s4.png" alt="Rice & Corn" />
+                    <img src="https://preview.colorlib.com/theme/farmie/img/core-img/s4.png" alt="Rice & Corn" className="object-contain"/>
                     <h1 className="text-xl">Rice & Corn</h1>
                   </div>
                   <p className="mt-2 text-gray-500">Intiam eu sagittis est, aster cosmo lacini libero...</p>
@@ -46,7 +46,7 @@ function BelowAbout() {
                 
                 <div className="md:w-1/3 w-full">
                   <div className="flex gap-4">
-                    <img src="https://preview.colorlib.com/theme/farmie/img/core-img/s1.png" alt="Fruit & Vegetable" />
+                    <img src="https://preview.colorlib.com/theme/farmie/img/core-img/s1.png" alt="Fruit & Vegetable" className="object-contain"/>
                     <h1 className="text-xl">Fruit & Vegetable</h1>
                   </div>
                   <p className="mt-2 text-gray-500">Intiam eu sagittis est, aster cosmo lacini libero...</p>

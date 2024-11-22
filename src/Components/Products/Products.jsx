@@ -24,7 +24,7 @@ function Products() {
           )
         })}
         </div>
-        <button className="bg-green-500 px-6 py-3 mt-7 w-[150px] hover:bg-black hover:text-white transition-all duration-2000 button-animate">Contact Us</button>
+        <button className="bg-green-500 px-6 py-3 mt-7 w-[150px] hover:bg-black hover:text-white transition-all duration-1000 button-animate">Go to Store</button>
       </div>
     </div>
     </>

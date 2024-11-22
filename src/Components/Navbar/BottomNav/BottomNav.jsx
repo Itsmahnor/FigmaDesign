@@ -51,8 +51,8 @@ function BottomNav() {
                   <NavDropdown.Item as={Link} to="/" onClick={() => setIsExpanded(false)}>HOME</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/about" onClick={() => setIsExpanded(false)}>ABOUT</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/product" href="#action5">OUR PRODUCTS</NavDropdown.Item>
-                  <NavDropdown.Item  as={Link} to="/about"href="#action5">FARMING PRACTICE</NavDropdown.Item>
-                  <NavDropdown.Item  as={Link} to="/about"href="#action5">NEWS</NavDropdown.Item>
+                  <NavDropdown.Item  as={Link} to="/farm"href="#action5">FARMING PRACTICE</NavDropdown.Item>
+                  <NavDropdown.Item  as={Link} to="/news"href="#action5">NEWS</NavDropdown.Item>
                   <NavDropdown.Item  as={Link} to="/about"href="#action5" className="flex group">
                     <p className="flex justify-between relative group hover:cursor-pointer">
                       Shop <FaChevronRight />
@@ -84,7 +84,9 @@ function BottomNav() {
               </Nav.Link>
               <Nav.Link href="#" className='relative'>
                 <LuShoppingCart className="text-lg ml-2" />
-                <p className='absolute top-1 right-1 w-[12px] bg-[green] h-[12px] flex justify-center items-center rounded-[10rem] text-[8px] p-1 text-white'>0</p>
+                {!isExpanded && (
+    <p className="absolute top-1 right-1 w-[12px] bg-[green] h-[12px] flex justify-center items-center rounded-[10rem] text-[8px] p-1 text-white">0</p>
+  )}
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
